@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My doctors appointment</title>
+</head>
+<body>
+    <h1> My doctors appointment </h1>
+    <p> fill in the forn to book your appointment </p>
+    <form>
+       <fieldset>
+           <legend>
+                personal detail
+           </legend> 
+           <label> your name </label>
+           <input type="text" Id="name" placeholder="enter your full name> <br> <br>
+           <label> patient ID</label> <br>
+           <input type="pasword" id="pid" placeholder="your secret ID"> <br> <br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                your visit
+            </legend>
+            <label>choose your doctor </label>
+            <select  id="doctor">
+                <option value=""> dr Jack</option>
+                <option value=""> dr James</option>
+                <option value=""> dr Amy</option>
+            </select> <br><br>
+
+            <label> why are you visiting.</label>
+            <input type= "radio" name="reason" value="fever">Fever<br>
+             <input type= "radio" name="reason" value="cold">Cold<br>
+             <input type= "radio" name="reason" value="headache">Headache<br>
+             <input type= "radio" name="reason" value="check up"> Check up<br>
+            <fieldset>
+                <legend> preferred visit day</legend>
+                 <input type="checkbox" value="mon"> monday <br>
+                 <input type="checkbox" value="tue"> tuesday<br>
+                 <input type="checkbox" value="wed"> wednesday <br>
+                 </fieldset>
+    </form>
+</body>
+</html>
